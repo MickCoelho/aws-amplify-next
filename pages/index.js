@@ -17,6 +17,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <h3>Current locale is: {router.locale}</h3>
         <Link href="/" locale="fr">
           <a className={styles.card}>FR</a>
         </Link>
